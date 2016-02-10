@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cipick/nodejs-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cipick/nodejs-server/issues"
+  },
+  "homepage": "https://github.com/cipick/nodejs-server#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "dynamoose": "^0.4.1",
+    "express": "^4.13.4"
+  }
+}
